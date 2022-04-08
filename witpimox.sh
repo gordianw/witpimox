@@ -152,5 +152,10 @@ echo "###################################################################"
 echo "___________________________________________________________________"
 ############################################################################################################################################################
 
-
+if ![ -f /Rpimox-Install.sh ]
+then
+  echo "Rpimox-Install.sh nicht vorhanden - wird heruntergeladen"
+  curl https://github.com/gordianw/witpimox/blob/main/Rpimox-Install.sh > Rpimox-Install.sh
+fi
+chmod +x Rpimox-Install.sh
 ./Rpimox-Install.sh
