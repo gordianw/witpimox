@@ -4,10 +4,11 @@
 # Created:  07.09.2021                      Modified: 22.02.2022      #
 # Author:   TuxfeatMac J.T.                                           #
 # Purpose:  interactive, automatic, Pimox7 installation RPi4B, RPi3B+ #
-#########################################################################################################################################
-# Tested with image from:														                                                                                                 #
-# https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-11-08/2021-10-30-raspios-bullseye-arm64-lite.zip	 #
-#########################################################################################################################################
+echo "#########################################################################################################################################
+# Tested with image															#
+# from:																        #
+# ${BLUE} https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-11-08/2021-10-30-raspios-bullseye-arm64-lite.zip ${NORMAL}#
+#########################################################################################################################################"
 
 
 #### SCRIPT IS MENT TO BE TO RUN AS ROOT! NOT AS PI WITH SUDO ###########################################################################
